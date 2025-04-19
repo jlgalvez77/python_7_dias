@@ -1,3 +1,5 @@
+# Console data entry
+
 message = input('Write a message: ')
 print(f'The message is: {message}')
 
