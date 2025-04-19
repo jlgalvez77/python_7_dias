@@ -21,9 +21,7 @@ _my_variable123456 = 40
 # print(My_variable2) # Error
 print(_my_variable)
 
-# 4. Can not use reserved words
+# 4. Cannot use reserved words
 # class = 50 #Error
 klass = 50
 print(klass)
-
-
