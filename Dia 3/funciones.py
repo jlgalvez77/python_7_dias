@@ -1,11 +1,8 @@
-print('*** Funciones en Python ***')
+from modulo_funcion import saludar
 
-# 1. Definir la función
-def saludar(parametro):
-    print(f'Mensaje recibido: {parametro}')
-    return  'Termina la función'
+print('*** Funciones en Python ***')
 
 # 2. Llamamos a la función
 argumento = input('Mensaje a enviar: ')
 valor_devuelto = saludar(argumento)
-print(f'Vslor devuelto de la función: {valor_devuelto}')
+print(f'Valor devuelto de la función: {valor_devuelto}')
