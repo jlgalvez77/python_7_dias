@@ -13,6 +13,8 @@ class Contacto:
             Apellido: {self.apellido}
             Telefono: {self.telefono}
             Email: {self.email}''')
+        print(f'Dirección de Memoria self: {id(self)}')
+        print(f'Dirección de Memoria Hexadecimal self: {hex(id(self))}')
 
 # Codigo Principal
 print('*** Clases y Objetos ***')
@@ -21,3 +23,12 @@ print('*** Clases y Objetos ***')
 contacto1 = Contacto()
 contacto1.inicializar_contact('José', 'Gálvez', 123456789, 'galvez@mail.com')
 contacto1.mostrar_contacto()
+print(f'Dirección de Memoria: {id(contacto1)}')
+print(f'Dirección de Memoria Hexadecimal: {hex(id(contacto1))}')
+
+# Creamos un segundo objeto
+contacto2 = Contacto()
+contacto2.inicializar_contact('Carlos', 'Gomez', 987654321, 'carlos@mail.com')
+contacto2.mostrar_contacto()
+print(f'Dirección de Memoria: {id(contacto2)}')
+print(f'Dirección de Memoria Hexadecimal: {hex(id(contacto2))}')
